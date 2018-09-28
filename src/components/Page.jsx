@@ -1,15 +1,12 @@
 import React from 'react'
 
+const style = {
+  border: '10px solid #262626',
+  padding: '5px',
+}
+
 const Page = ({ references = {}, children }) => (
-  <div
-    style={{
-      height: '100%',
-      border: '10px solid gray',
-      padding: '20px',
-    }}
-  >
-    {references.items.map(children)}
-  </div>
+  <div style={style}>{references.items.map(children)}</div>
 )
 
 export default Page
