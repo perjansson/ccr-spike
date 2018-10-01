@@ -5,7 +5,28 @@
       "label": "All Family Series"
     },
     "references": {
-      "items": []
+      "items": [
+        { "label": "2 Dope Queens" },
+        { "label": "All Def Comedy" },
+        { "label": "Angels in America" },
+        { "label": "Ballers" },
+        { "label": "Serie 5" },
+        { "label": "Serie 6" },
+        { "label": "Serie 7" },
+        { "label": "Serie 8" },
+        {
+          "label": "Serie 9"
+        },
+        {
+          "label": "Serie 10"
+        },
+        {
+          "label": "Serie 11"
+        },
+        {
+          "label": "Serie 12"
+        }
+      ]
     }
   }
 }

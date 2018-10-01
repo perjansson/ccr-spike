@@ -4,6 +4,7 @@ import { layout } from './style'
 
 const style = {
   ...layout.block,
+  flexDirection: 'row',
 }
 
 const LinkSet = ({ references = {}, children }) => (
