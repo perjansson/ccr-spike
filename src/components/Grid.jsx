@@ -25,7 +25,7 @@ const Grid = ({ header, references: { items } }) => (
     <div style={style.header}>{header.label}</div>
     <div style={style.gridContainer}>
       {items.map((item, i) => (
-        <GridItem key={i} {...item} />
+        <GridItem key={i} {...item} tabIndex="0" />
       ))}
     </div>
   </div>

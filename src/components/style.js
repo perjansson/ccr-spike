@@ -10,7 +10,7 @@ export const layout = {
 
 export const typography = {
   small: {
-    padding: '0 20px',
+    padding: '10px 20px',
     fontSize: '14px',
     textDecoration: 'none',
     textTransform: 'uppercase',

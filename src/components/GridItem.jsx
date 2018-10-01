@@ -8,8 +8,8 @@ const style = {
   background: '#fff',
 }
 
-const GridItem = ({ label }) => (
-  <div style={style}>
+const GridItem = ({ label, ...rest }) => (
+  <div style={style} {...rest}>
     <img src="https://via.placeholder.com/200x200" />
   </div>
 )
