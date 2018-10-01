@@ -1,6 +1,21 @@
-import { createContext } from 'react'
+import React, { createContext } from 'react'
 
-const DataEntitiesContext = createContext({ dataEntites: {} })
+import dataEntityStore from './util/dataEntityStore'
+import dataEntityComponentMapper from './util/dataEntityComponentMapper'
 
-export const DataEntitiesProvider = DataEntitiesContext.Provider
+const DataEntitiesContext = createContext({})
+
+export const DataEntitiesProvider = ({ children }) => {
+  return (
+    <DataEntitiesContext.Provider
+      value={{
+        getDataEntity: dataEntityStore,
+        getComponent: dataEntityComponentMapper,
+      }}
+    >
+      {children}
+    </DataEntitiesContext.Provider>
+  )
+}
+
 export const DataEntitiesConsumer = DataEntitiesContext.Consumer

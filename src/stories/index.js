@@ -1,86 +1,20 @@
 import React from 'react'
-
-import { storiesOf } from '@storybook/react'
+import { storiesOf, addDecorator, configure } from '@storybook/react'
 
 import { DataEntitiesProvider } from '../DataEntitiesContext'
-import DataEntityTemplate from '../DataEntityTemplate'
+import DataEntityComponent from '../DataEntityComponent'
 
-const dataEntities = {
-  'urn:hbo:page:series1': {
-    body: {
-      references: {
-        items: ['urn:hbo:link:series-all'],
-      },
-    },
-  },
-  'urn:hbo:page:series2': {
-    body: {
-      references: {
-        items: ['urn:hbo:linkset:series'],
-      },
-    },
-  },
-
-  'urn:hbo:linkset:series': {
-    body: {
-      references: {
-        links: [
-          'urn:hbo:link:series-all',
-          'urn:hbo:link:series-latino',
-          'urn:hbo:link:series-international',
-          'urn:hbo:link:series-family',
-        ],
-      },
-    },
-  },
-
-  'urn:hbo:link:series-all': {
-    body: {
-      label: 'All',
-      references: {
-        target: 'urn:hbo:page:series-all',
-      },
-    },
-  },
-  'urn:hbo:link:series-latino': {
-    body: {
-      label: 'Latino',
-      references: {
-        target: 'urn:hbo:page:series-latino',
-      },
-    },
-  },
-  'urn:hbo:link:series-international': {
-    body: {
-      label: 'International',
-      references: {
-        target: 'urn:hbo:page:series-international',
-      },
-    },
-  },
-  'urn:hbo:link:series-family': {
-    body: {
-      label: 'Family',
-      references: {
-        target: 'urn:hbo:page:series-family',
-      },
-    },
-  },
-}
-
-const WithContext = storyFn => (
-  <DataEntitiesProvider value={{ dataEntities }}>
-    {storyFn()}
-  </DataEntitiesProvider>
+const WithContext = story => (
+  <DataEntitiesProvider>{story()}</DataEntitiesProvider>
 )
 
-storiesOf('DataEntityTemplate/Page', module)
+storiesOf('DataEntityComponent', module)
   .addDecorator(WithContext)
-  .add('with one Link Entity', () => {
-    const id = 'urn:hbo:page:series1'
-    return <DataEntityTemplate id={id} />
-  })
-  .add('with one LinkSet Entity', () => {
-    const id = 'urn:hbo:page:series2'
-    return <DataEntityTemplate id={id} />
-  })
+  .add('Link', () => <DataEntityComponent id={'urn:hbo:link:series-all'} />)
+  .add('Linkset', () => <DataEntityComponent id={'urn:hbo:linkset:series'} />)
+  .add('Grid', () => (
+    <DataEntityComponent id={'urn:hbo:grid:series-family-a-z'} />
+  ))
+  .add('Page with multiple components', () => (
+    <DataEntityComponent id={'urn:hbo:page:series-family'} />
+  ))

@@ -1,7 +1,9 @@
-import { configure } from '@storybook/react';
+import { addDecorator, configure } from '@storybook/react'
+import { setOptions } from '@storybook/addon-options'
 
-function loadStories() {
-  require('../src/stories');
-}
+setOptions({
+  name: 'CCR Storybook',
+  showAddonPanel: false,
+})
 
-configure(loadStories, module);
+configure(() => require('../src/stories'), module)

@@ -1,10 +1,9 @@
 import React from 'react'
 import Link from './Link'
+import { layout } from './style'
 
 const style = {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
+  ...layout.block,
 }
 
 const LinkSet = ({ references = {}, children }) => (
