@@ -1,0 +1,22 @@
+[
+  {
+    "id": "urn:hbo:tray:series-family-collection1",
+    "body": {
+      "style": "STANDARD",
+      "references": {
+        "items": [],
+        "target": "urn:hbo:page:series-family-all"
+      }
+    }
+  },
+  {
+    "id": "urn:hbo:tray:series-family-collection2",
+    "body": {
+      "style": "FANCY",
+      "references": {
+        "items": [],
+        "target": "urn:hbo:page:series-family-all"
+      }
+    }
+  }
+]

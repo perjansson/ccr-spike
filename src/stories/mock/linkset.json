@@ -1,0 +1,13 @@
+{
+  "id": "urn:hbo:linkset:series",
+  "body": {
+    "references": {
+      "links": [
+        "urn:hbo:link:series-all",
+        "urn:hbo:link:series-latino",
+        "urn:hbo:link:series-international",
+        "urn:hbo:link:series-family"
+      ]
+    }
+  }
+}

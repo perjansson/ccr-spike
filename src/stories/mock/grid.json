@@ -1,0 +1,11 @@
+{
+  "id": "urn:hbo:grid:series-family-a-z",
+  "body": {
+    "header": {
+      "label": "All Family Series"
+    },
+    "references": {
+      "items": []
+    }
+  }
+}

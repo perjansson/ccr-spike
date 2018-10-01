@@ -1,0 +1,38 @@
+[
+  {
+    "id": "urn:hbo:link:series-all",
+    "body": {
+      "label": "All",
+      "references": {
+        "target": "urn:hbo:page:series-all"
+      }
+    }
+  },
+  {
+    "id": "urn:hbo:link:series-latino",
+    "body": {
+      "label": "Latino",
+      "references": {
+        "target": "urn:hbo:page:series-latino"
+      }
+    }
+  },
+  {
+    "id": "urn:hbo:link:series-international",
+    "body": {
+      "label": "International",
+      "references": {
+        "target": "urn:hbo:page:series-international"
+      }
+    }
+  },
+  {
+    "id": "urn:hbo:link:series-family",
+    "body": {
+      "label": "Family",
+      "references": {
+        "target": "urn:hbo:page:series-family"
+      }
+    }
+  }
+]
