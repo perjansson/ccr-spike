@@ -12,7 +12,7 @@ const updateDataEntities = (dataEntities, ...newDataEntities) => ({
             ...memo,
             ...updateDataEntities(dataEntities, ...dataEntity),
           }
-        : { ...memo, [dataEntity.id]: dataEntity }),
+        : { ...memo, [dataEntity.id]: omit(['id'], dataEntity) }),
     }),
     {},
   ),

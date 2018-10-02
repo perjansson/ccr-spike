@@ -1,5 +1,5 @@
 import React from 'react'
-import { layout, typography } from './style'
+import { typography } from './style'
 
 const style = { ...typography.small }
 

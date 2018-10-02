@@ -13,7 +13,7 @@ const style = {
 
 const Item = ({ label, src, ...rest }) => (
   <div style={style.container} {...rest}>
-    <img src={src} />
+    <img src={src} alt="grid item" />
     <div style={style.label}>{label}</div>
   </div>
 )

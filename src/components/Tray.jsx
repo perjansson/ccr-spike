@@ -1,6 +1,6 @@
 import React from 'react'
 import Item from './Item'
-import { layout, typography } from './style'
+import { layout } from './style'
 
 const style = {
   container: {

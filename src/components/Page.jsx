@@ -1,5 +1,4 @@
 import React from 'react'
-import { layout } from './style'
 
 const style = {
   container: {

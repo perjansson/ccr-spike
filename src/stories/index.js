@@ -14,7 +14,7 @@ import mockPage from './mock/page.json'
 import mockText from './mock/text.json'
 
 // Initialize with mocked data entities from backend
-const dataEntities = addDataEntities(
+addDataEntities(
   mockLinks,
   mockLinkset,
   mockCarousel,
