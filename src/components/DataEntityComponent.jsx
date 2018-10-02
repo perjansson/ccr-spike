@@ -1,12 +1,12 @@
 import React from 'react'
 
-import { DataEntitiesConsumer } from './DataEntitiesContext'
+import { DataEntitiesConsumer } from '../DataEntitiesContext'
 
 const DataEntityComponent = ({ id }) => (
   <DataEntitiesConsumer>
-    {({ getComponent, getDataEntity }) => {
+    {({ getComponent, getEntityData }) => {
       const Component = getComponent(id)
-      const data = getDataEntity(id)
+      const data = getEntityData(id)
 
       return (
         <Component {...data}>

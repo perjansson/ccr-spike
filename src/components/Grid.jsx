@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import GridItem from './Item'
+import Item from './Item'
 import { layout, typography } from './style'
 
 const style = {
@@ -29,7 +29,7 @@ const Grid = ({ header, references: { items } }) => (
     <div style={style.header}>{header.label}</div>
     <div style={style.gridContainer}>
       {items.map((item, i) => (
-        <GridItem key={i} {...item} tabIndex="0" style={item} />
+        <Item key={i} {...item} tabIndex="0" style={item} />
       ))}
     </div>
   </div>

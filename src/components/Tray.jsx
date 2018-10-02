@@ -1,5 +1,5 @@
 import React from 'react'
-import GridItem from './Item'
+import Item from './Item'
 import { layout, typography } from './style'
 
 const style = {
@@ -30,7 +30,7 @@ const Tray = ({ references: { items }, style: trayStyle }) => (
   <div style={style.container}>
     <div style={style.trayContainer}>
       {items.map((item, i) => (
-        <GridItem
+        <Item
           key={i}
           {...item}
           tabIndex="0"

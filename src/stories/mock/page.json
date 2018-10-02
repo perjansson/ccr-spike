@@ -5,10 +5,10 @@
       "items": [
         "urn:hbo:linkset:series",
         "urn:hbo:text:series-family-title",
-        "urn:hbo:carousel:series-family-featured",
         "urn:hbo:grid:series-family-a-z",
         "urn:hbo:tray:series-family-standard",
-        "urn:hbo:tray:series-family-fancy"
+        "urn:hbo:tray:series-family-fancy",
+        "urn:hbo:carousel:series-family-featured"
       ]
     }
   }

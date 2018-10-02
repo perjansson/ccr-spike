@@ -9,7 +9,7 @@ export const DataEntitiesProvider = ({ children }) => {
   return (
     <DataEntitiesContext.Provider
       value={{
-        getDataEntity: dataEntityStore,
+        getEntityData: dataEntityStore,
         getComponent: dataEntityComponentMapper,
       }}
     >

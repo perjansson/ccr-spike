@@ -1,12 +1,27 @@
 import React from 'react'
+import Carousel from 'nuka-carousel'
+import Item from './Item'
 import { layout } from './style'
 
 const style = {
-  ...layout.block,
-  height: '150px',
-  background: '#262626',
+  container: {
+    ...layout.block,
+    padding: '20px',
+    background: '#262626',
+  },
+  item: {
+    ...layout.block,
+  },
 }
 
-const Carousel = () => <div style={style}>CAROUSEL</div>
+const WrappedCarousel = ({ references: { items } }) => (
+  <div style={style.container}>
+    <Carousel autoplay>
+      {items.map((item, i) => (
+        <Item key={i} {...item} tabIndex="0" style={style.item} />
+      ))}
+    </Carousel>
+  </div>
+)
 
-export default Carousel
+export default WrappedCarousel
