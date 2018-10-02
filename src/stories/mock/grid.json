@@ -6,25 +6,53 @@
     },
     "references": {
       "items": [
-        { "label": "2 Dope Queens" },
-        { "label": "All Def Comedy" },
-        { "label": "Angels in America" },
-        { "label": "Ballers" },
-        { "label": "Serie 5" },
-        { "label": "Serie 6" },
-        { "label": "Serie 7" },
-        { "label": "Serie 8" },
         {
-          "label": "Serie 9"
+          "label": "2 Dope Queens",
+          "src": "https://via.placeholder.com/200x200"
         },
         {
-          "label": "Serie 10"
+          "label": "All Def Comedy",
+          "src": "https://via.placeholder.com/200x200"
         },
         {
-          "label": "Serie 11"
+          "label": "Angels in America",
+          "src": "https://via.placeholder.com/200x200"
         },
         {
-          "label": "Serie 12"
+          "label": "Ballers",
+          "src": "https://via.placeholder.com/200x200"
+        },
+        {
+          "label": "Serie 5",
+          "src": "https://via.placeholder.com/200x200"
+        },
+        {
+          "label": "Serie 6",
+          "src": "https://via.placeholder.com/200x200"
+        },
+        {
+          "label": "Serie 7",
+          "src": "https://via.placeholder.com/200x200"
+        },
+        {
+          "label": "Serie 8",
+          "src": "https://via.placeholder.com/200x200"
+        },
+        {
+          "label": "Serie 9",
+          "src": "https://via.placeholder.com/200x200"
+        },
+        {
+          "label": "Serie 10",
+          "src": "https://via.placeholder.com/200x200"
+        },
+        {
+          "label": "Serie 11",
+          "src": "https://via.placeholder.com/200x200"
+        },
+        {
+          "label": "Serie 12",
+          "src": "https://via.placeholder.com/200x200"
         }
       ]
     }

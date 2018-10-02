@@ -6,9 +6,9 @@
         "urn:hbo:linkset:series",
         "urn:hbo:text:series-family-title",
         "urn:hbo:carousel:series-family-featured",
-        "urn:hbo:tray:series-family-collection1",
         "urn:hbo:grid:series-family-a-z",
-        "urn:hbo:tray:series-family-collection2"
+        "urn:hbo:tray:series-family-standard",
+        "urn:hbo:tray:series-family-fancy"
       ]
     }
   }

@@ -1,21 +1,181 @@
 [
   {
-    "id": "urn:hbo:tray:series-family-collection1",
+    "id": "urn:hbo:tray:series-family-standard",
     "body": {
       "style": "STANDARD",
       "references": {
-        "items": [],
-        "target": "urn:hbo:page:series-family-all"
+        "items": [
+          {
+            "label": "2 Dope Queens",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "All Def Comedy",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Angels in America",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Ballers",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 5",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 6",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 7",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 8",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 9",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 10",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 11",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 12",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 13",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 14",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 15",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 16",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 17",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 18",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 19",
+            "src": "https://via.placeholder.com/200x100"
+          },
+          {
+            "label": "Serie 20",
+            "src": "https://via.placeholder.com/200x100"
+          }
+        ]
       }
     }
   },
   {
-    "id": "urn:hbo:tray:series-family-collection2",
+    "id": "urn:hbo:tray:series-family-fancy",
     "body": {
       "style": "FANCY",
       "references": {
-        "items": [],
-        "target": "urn:hbo:page:series-family-all"
+        "items": [
+          {
+            "label": "2 Dope Queens",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "All Def Comedy",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Angels in America",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Ballers",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 5",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 6",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 7",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 8",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 9",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 10",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 11",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 12",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 13",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 14",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 15",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 16",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 17",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 18",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 19",
+            "src": "https://via.placeholder.com/200x300"
+          },
+          {
+            "label": "Serie 20",
+            "src": "https://via.placeholder.com/200x300"
+          }
+        ]
       }
     }
   }

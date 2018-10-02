@@ -30,6 +30,9 @@ storiesOf('DataEntityComponent', module)
   .addDecorator(WithContext)
   .add('Link', () => <DataEntityComponent id={'urn:hbo:link:series-all'} />)
   .add('Linkset', () => <DataEntityComponent id={'urn:hbo:linkset:series'} />)
+  .add('Tray', () => (
+    <DataEntityComponent id={'urn:hbo:tray:series-family-standard'} />
+  ))
   .add('Grid', () => (
     <DataEntityComponent id={'urn:hbo:grid:series-family-a-z'} />
   ))

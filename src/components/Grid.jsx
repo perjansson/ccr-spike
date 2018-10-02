@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import GridItem from './GridItem'
+import GridItem from './Item'
 import { layout, typography } from './style'
 
 const style = {
@@ -10,13 +10,17 @@ const style = {
   },
   header: {
     marginTop: '20px',
+    marginBottom: '20px',
     ...typography.medium,
   },
   gridContainer: {
     display: 'grid',
     gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr',
-    gridGap: '5px',
+    gridGap: '30px',
     background: '#262626',
+  },
+  item: {
+    height: '245px',
   },
 }
 
@@ -25,7 +29,7 @@ const Grid = ({ header, references: { items } }) => (
     <div style={style.header}>{header.label}</div>
     <div style={style.gridContainer}>
       {items.map((item, i) => (
-        <GridItem key={i} {...item} tabIndex="0" />
+        <GridItem key={i} {...item} tabIndex="0" style={item} />
       ))}
     </div>
   </div>
